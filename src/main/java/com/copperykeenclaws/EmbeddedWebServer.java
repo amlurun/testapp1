@@ -1,11 +1,9 @@
 package com.copperykeenclaws;
 
-import javax.servlet.http.HttpServlet;
-
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;
 
-public class EmbeddedWebServer extends HttpServlet {
+public class EmbeddedWebServer {
 
 	private static final long serialVersionUID = -6777759990550225380L;
 
