@@ -15,7 +15,7 @@
 <script type="text/javascript" src="validate.js"></script>
 <script type="text/javascript" src="jquery.shuffleLetters.js"></script>
 <form action="" onsubmit="return validate()">
-<!-- 
+<!--  
 <div id="countSection">
 	<p id="countTitle">Count</p>
 	<p id="count"></p>
