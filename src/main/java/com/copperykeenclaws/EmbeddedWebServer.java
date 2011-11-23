@@ -11,7 +11,7 @@ public class EmbeddedWebServer {
 	private static final long serialVersionUID = -6777759990550225380L;
 
 	public static void main(String[] args) throws Exception{
-        String appBase = "src/main/webapp/";
+        String appBase = "../src/main/webapp/";
         File appBaseDir = new File(appBase);
         
         String webPort = System.getenv("PORT");
