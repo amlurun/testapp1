@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar bigmath-0.0.1-SNAPSHOT-shaded.war
+web: java $JAVA_OPTS -jar bigmath-0.0.1-SNAPSHOT.war
