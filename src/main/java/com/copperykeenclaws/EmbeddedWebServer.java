@@ -11,7 +11,7 @@ public class EmbeddedWebServer {
 	private static final long serialVersionUID = -6777759990550225380L;
 
 	public static void main(String[] args) throws Exception{
-        String appBase = "../src/main/webapp/";
+        String appBase = "../*.war";
         File appBaseDir = new File(appBase);
         
         String webPort = System.getenv("PORT");
@@ -29,7 +29,7 @@ public class EmbeddedWebServer {
         StandardServer server = (StandardServer) tomcat.getServer();
         AprLifecycleListener listener = new AprLifecycleListener();
         server.addLifecycleListener(listener);
-
+        
         String contextPath = "/";
         
         tomcat.addWebapp(contextPath, appBaseDir.getAbsolutePath());
