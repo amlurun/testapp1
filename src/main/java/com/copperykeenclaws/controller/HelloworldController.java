@@ -9,13 +9,13 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.AbstractController;
 
 @Controller
-public class HelloWorldController extends AbstractController {
+public class HelloworldController extends AbstractController {
 
 	@RequestMapping("/hello")
 	protected ModelAndView handleRequestInternal(HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 
-		ModelAndView modelAndView = new ModelAndView("helloWorld", "message",
+		ModelAndView modelAndView = new ModelAndView("helloworld", "message",
 				"Heroku Spring MVC Example");
 
 		return modelAndView;
