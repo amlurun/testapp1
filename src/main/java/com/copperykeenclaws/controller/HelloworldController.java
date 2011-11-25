@@ -11,7 +11,6 @@ import org.springframework.web.servlet.mvc.AbstractController;
 @Controller
 public class HelloworldController extends AbstractController {
 
-	@RequestMapping("/hello")
 	protected ModelAndView handleRequestInternal(HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 
