@@ -11,7 +11,7 @@ public class HelloWorldController extends AbstractController {
 	protected ModelAndView handleRequestInternal(HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 
-		ModelAndView modelAndView = new ModelAndView("helloworld", "message",
+		ModelAndView modelAndView = new ModelAndView("helloWorld", "message",
 				"Heroku Spring MVC Example");
 
 		return modelAndView;
