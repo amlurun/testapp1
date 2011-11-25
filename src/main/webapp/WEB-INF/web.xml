@@ -17,7 +17,7 @@
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>bigMath</servlet-name>
+		<servlet-name>helloWorld</servlet-name>
 		<url-pattern>*.htm</url-pattern>
 	</servlet-mapping>
 
