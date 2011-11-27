@@ -1,0 +1,3 @@
+Starter java project for hosting on Heroku using embedded tomcat and Spring MVC.
+
+This example relies on the technique in Rodney Beebe's post at http://www.rodneybeede.com/Embedding_Tomcat_7_in_a_war_file.html, including moving the Main class to the root level of the war.
