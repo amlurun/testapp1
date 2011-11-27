@@ -1,3 +1,3 @@
 Starter java project for hosting on Heroku using embedded tomcat and Spring MVC.
 
-This example relies on the technique in Rodney Beebe's post at http://www.rodneybeede.com/Embedding_Tomcat_7_in_a_war_file.html, including moving the Main class to the root level of the war.
+The Heroku docs mostly use jetty and some build a war then execute it with jetty-runner. This example uses a similar technique of packaging a war file then executing it, which involves moving the Main class to the root level of the war. Rodney Beebe's post at http://www.rodneybeede.com/Embedding_Tomcat_7_in_a_war_file.html provides a reference for this.
